@@ -14,3 +14,20 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+// Route::get('custom', function() {
+//     dd(config('app.developers'));
+// });
+
+// Route::get('custom', function() {
+//     dd(config('blog.administrators'));
+// });
+
+// Route::get('custom', function() {
+//     dd(env('APP_CREATOR'));
+// });
+
+Route::get('custom', function() {
+    dd(config('blog.creator'));
+});

@@ -28,6 +28,10 @@ return [
 
     'env' => env('APP_ENV', 'production'),
 
+    'developers' => [
+        'teskirimemail92@gmail.com'
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Application Debug Mode
