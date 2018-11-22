@@ -31,3 +31,10 @@ Route::get('/', function () {
 Route::get('custom', function() {
     dd(config('blog.creator'));
 });
+Auth::routes();
+
+// Route::get('/register', function(){
+//     return 'register user';
+// });
+
+Route::get('/home', 'HomeController@index')->name('home');
